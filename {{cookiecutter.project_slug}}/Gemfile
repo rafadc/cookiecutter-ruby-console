@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.5.1'
+
 group :develop do
   gem 'pry'
   gem 'pry-byebug'
