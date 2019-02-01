@@ -6,4 +6,4 @@ COPY Gemfile /app/Gemfile
 COPY Gemfile.lock /app/Gemfile.lock
 RUN bundle install
 COPY . /app
-CMD ["bundle", "exec", "ruby", "{{lib/{{cookiecutter.project_slug}}.rb"]
+CMD ["bundle", "exec", "ruby", "lib/{{cookiecutter.project_slug}}.rb"]
